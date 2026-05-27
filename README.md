@@ -32,4 +32,4 @@ Code is released under MIT License.
 Data, outputs, and documentation are released under CC BY 4.0 unless otherwise stated.
 
 ## Citation
-DOI: 0000/zenodo.0000
+DOI: 10.5281/zenodo.20412985
