@@ -12,7 +12,7 @@
                    },
     "release":  {
                     "repository":  "https://github.com/yalassedi/paper-i-btns-native-polynomial-coefficient-construction",
-                    "zenodo_doi":  "0000/zenodo.00000",
+                    "zenodo_doi":  "10.5281/zenodo.20412985",
                     "release_tag":  "v1.0.0",
                     "release_date":  "2026-05-27",
                     "evidence_boundary":  "frozen_v157_m10"
