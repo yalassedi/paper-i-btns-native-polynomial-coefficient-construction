@@ -1,0 +1,137 @@
+{
+    "schema_version":  "1.0",
+    "file_identity":  {
+                          "filename":  "settings_signature.json",
+                          "role":  "deterministic campaign settings signature",
+                          "generated_for":  "BTNS Paper I reproducibility boundary"
+                      },
+    "manuscript":  {
+                       "title":  "A Finite Balanced-Ternary Computational Regime for Native Polynomial-Coefficient Construction with Full Strict Windowed Fractional Canonization and Certified Governance",
+                       "author":  "Younus M. Younus",
+                       "paper_role":  "Scientific Paper I"
+                   },
+    "release":  {
+                    "repository":  "https://github.com/yalassedi/paper-i-btns-native-polynomial-coefficient-construction",
+                    "zenodo_doi":  "0000/zenodo.00000",
+                    "release_tag":  "v1.0.0",
+                    "release_date":  "2026-05-27",
+                    "evidence_boundary":  "frozen_v157_m10"
+                },
+    "campaign":  {
+                     "polynomial_degree_m":  10,
+                     "root_group_count":  10,
+                     "construction_paths":  [
+                                                "FDNC",
+                                                "UCAC",
+                                                "MDNC"
+                                            ],
+                     "evidence_interpretation":  "deep frozen evidence; not broad empirical generality",
+                     "empirical_claim_scope":  "campaign-scoped to the declared frozen v157 m=10 evidence boundary"
+                 },
+    "finite_btns_regime":  {
+                               "radix_beta":  3,
+                               "digit_alphabet_D3":  [
+                                                         -1,
+                                                         0,
+                                                         1
+                                                     ],
+                               "finite_support":  "declared by campaign configuration and source artifacts",
+                               "value_map":  "V3(d)=sum_{k=k_min}^{k_max} d_k 3^k",
+                               "ingress_boundary":  "external roots may be projected into finite BTNS objects",
+                               "internal_construction_boundary":  "coefficient-producing operations proceed through native BTNS digit objects",
+                               "egress_boundary":  "external values may be used only for reporting, diagnostics, and error measurement",
+                               "post_hoc_decimal_coefficient_encoding":  false
+                           },
+    "native_arithmetic":  {
+                              "operations":  [
+                                                 "carry_platform_addition",
+                                                 "digitwise_negation",
+                                                 "digitwise_subtraction",
+                                                 "raw_convolution_multiplication",
+                                                 "radix_three_normalization"
+                                             ],
+                              "multiplication_definition":  "raw convolution followed by carry-platform normalization",
+                              "local_digit_restoration":  "z_k = q_k - 3 floor((q_k + 1)/3)"
+                          },
+    "wfc":  {
+                "name":  "Windowed Fractional Canonization",
+                "role":  "finite-boundary canonization",
+                "mode":  "full_strict_wfc",
+                "candidate_c_in_set":  [
+                                           -1,
+                                           0,
+                                           1
+                                       ],
+                "boundary_window":  "declared by campaign configuration and source artifacts",
+                "strict_requirements":  [
+                                            "legal_balanced_digits",
+                                            "finite_support_consistency",
+                                            "no_unresolved_leakage",
+                                            "value_preservation_or_declared_boundary_compensation",
+                                            "deterministic_representative_selection",
+                                            "traceable_unresolved_state_reporting"
+                                        ],
+                "universal_necessity_claimed":  false,
+                "regime_necessity_scope":  "required for coefficient promotion inside the proposed finite BTNS regime"
+            },
+    "ucc":  {
+                "name":  "Unified Certified Contract",
+                "role":  "certified governance for finite-regime evidence",
+                "decision_state_set":  [
+                                           "TRUE",
+                                           "FALSE",
+                                           "TUBE"
+                                       ],
+                "governed_actions":  [
+                                         "accept",
+                                         "refine",
+                                         "rebuild",
+                                         "hold",
+                                         "reject"
+                                     ],
+                "promotion_rule":  "Promote(a_j)=TRUE iff D_j=TRUE and all required finite-regime evidence is complete",
+                "post_construction_label_only":  false,
+                "automatic_numerical_superiority_claimed":  false
+            },
+    "matched_depth_fairness":  {
+                                   "enabled":  true,
+                                   "paths":  {
+                                                 "FDNC":  "Fixed-Depth Native Construction path",
+                                                 "UCAC":  "UCC-Certified Adaptive Construction path",
+                                                 "MDNC":  "Matched-Depth Native Control path"
+                                             },
+                                   "diagnostic":  "Delta_fair(j)=V3(a_j_UCAC)-V3(a_j_MDNC)",
+                                   "interpretation":  "UCAC-MDNC equality means value-level reproducibility at matched depth, not intrinsic certified-controller superiority"
+                               },
+    "artifact_boundary":  {
+                              "source_package":  "PythonApplication157.zip",
+                              "production_output_package":  "btns_m10_output_157.zip",
+                              "stress_diagnostic_package":  "btns_m10_stress_output_157.zip",
+                              "workbook_ready_reporting_package":  "workbook_ready_tables_157.zip",
+                              "implementation_protocol":  "Script_Contract_v28_original.pdf",
+                              "nomenclature_addendum":  "v28_publication_nomenclature_addendum.pdf"
+                          },
+    "reproducibility":  {
+                            "checksum_file":  "SHA256SUMS.txt",
+                            "manifest_file":  "manifest.json",
+                            "settings_signature_file":  "settings_signature.json",
+                            "environment_file":  "reproducibility_environment.txt",
+                            "dependency_file":  "requirements.txt",
+                            "citation_file":  "CITATION.cff",
+                            "detailed_protocol_location":  "Supplement F",
+                            "artifact_availability_claimed":  true,
+                            "artifact_identity_verification_supported":  true,
+                            "internal_reproducibility_claimed":  true,
+                            "independent_external_replication_claimed":  false
+                        },
+    "claim_boundaries":  {
+                             "universal_balanced_ternary_superiority_claimed":  false,
+                             "runtime_dominance_claimed":  false,
+                             "hardware_feasibility_claimed":  false,
+                             "arbitrary_degree_closure_claimed":  false,
+                             "universal_wfc_optimality_claimed":  false,
+                             "general_polynomial_rootfinding_claimed":  false,
+                             "intrinsic_equal_depth_certified_superiority_claimed":  false,
+                             "completed_independent_external_replication_claimed":  false
+                         }
+}

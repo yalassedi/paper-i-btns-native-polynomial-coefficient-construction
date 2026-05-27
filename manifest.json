@@ -1,0 +1,58 @@
+﻿{
+  "artifact_title": "A Finite Balanced-Ternary Computational Regime for Native Polynomial-Coefficient Construction: Paper I Artifact",
+  "artifact_version": "1.0.0",
+  "author": "Younus M. Younus",
+  "paper_title": "A Finite Balanced-Ternary Computational Regime for Native Polynomial-Coefficient Construction with Full Strict Windowed Fractional Canonization and Certified Governance",
+  "implementation_protocol_version": "v28",
+  "operation_mode": "BTNS_M10_NINTH_STAGE",
+  "description": "Frozen implementation and evidence boundary supporting Paper I. This archive contains the final source package, production output, diagnostic stress output, workbook-ready tables, the original v28 implementation protocol, and a publication-nomenclature addendum mapping legacy v28 terms to FDNC, UCAC, and MDNC.",
+  "main_artifacts": [
+    {
+      "filename": "PythonApplication157.zip",
+      "role": "Final source implementation package"
+    },
+    {
+      "filename": "btns_m10_output_157.zip",
+      "role": "Main m=10 production output package"
+    },
+    {
+      "filename": "btns_m10_stress_output_157.zip",
+      "role": "Diagnostic stress output package"
+    },
+    {
+      "filename": "workbook_ready_tables_157.zip",
+      "role": "Workbook-ready manuscript reporting tables"
+    },
+    {
+      "filename": "Script_Contract_v28_original.pdf",
+      "role": "Original frozen v28 implementation protocol"
+    },
+    {
+      "filename": "v28_publication_nomenclature_addendum.pdf",
+      "role": "Publication-nomenclature crosswalk from legacy v28 terms to FDNC, UCAC, and MDNC"
+    }
+  ],
+  "campaign_summary": {
+    "degree_m": 10,
+    "root_groups": 10,
+    "initial_k_min_grid": [-20, -30, -40, -50],
+    "production_cases": 40,
+    "coefficient_rows_per_path": 440,
+    "paths": ["FDNC", "UCAC", "MDNC"],
+    "wfc_policy": "RN-ZERO",
+    "wfc_window_width": 8,
+    "boundary_mode": "LOWER_BOUNDARY_COMPENSATED"
+  },
+  "reproducibility": {
+    "python_version": "Python 3.13.13",
+    "dependencies": ["Python standard library", "openpyxl==3.1.5"],
+    "randomness": "No stochastic component is used in the reported campaign.",
+    "hash_file": "SHA256SUMS.txt"
+  },
+  "licenses": {
+    "code": "MIT License; see LICENSE-CODE-MIT.txt",
+    "data_outputs_documentation": "Creative Commons Attribution 4.0 International; see LICENSE-DATA-CC-BY-4.0.txt"
+  },
+  "repository": "https://github.com/yalassedi/paper-i-btns-native-polynomial-coefficient-construction",
+  "zenodo_doi": "000/zenodo.000"
+}

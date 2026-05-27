@@ -1,0 +1,20 @@
+cff-version: "1.2.0"
+message: "If you use this artifact, please cite the archived Zenodo release."
+type: software
+title: "A Finite Balanced-Ternary Computational Regime for Native Polynomial-Coefficient Construction: Paper I Artifact"
+authors:
+  - family-names: "Younus"
+    given-names: "Younus M."
+version: "1.0.0"
+date-released: "2026-05-27"
+license: "MIT"
+repository-code: "https://github.com/yalassedi/paper-i-btns-native-polynomial-coefficient-construction"
+abstract: "Frozen implementation and evidence boundary for Paper I. The archive includes PythonApplication157.zip, production output, diagnostic stress output, workbook-ready tables, the original v28 implementation protocol, and a publication-nomenclature addendum."
+keywords:
+  - "balanced ternary"
+  - "signed-digit arithmetic"
+  - "polynomial coefficient construction"
+  - "Windowed Fractional Canonization"
+  - "Unified Certified Contract"
+  - "matched-depth fairness"
+  - "reproducible computation"

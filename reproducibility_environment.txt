@@ -1,0 +1,9 @@
+Python version: Python 3.13.13
+Operating system: Windows 10, version 10.0.19045, SP0
+Dependencies: Python standard library; openpyxl==3.1.5
+Randomness: No stochastic component is used in the reported campaign.
+Main source package: PythonApplication157.zip
+Production output package: btns_m10_output_157.zip
+Stress output package: btns_m10_stress_output_157.zip
+Workbook-ready package: workbook_ready_tables_157.zip
+Implementation protocol: v28
