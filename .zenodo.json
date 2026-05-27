@@ -1,0 +1,31 @@
+{
+    "title":  "A Finite Balanced-Ternary Computational Regime for Native Polynomial-Coefficient Construction: Paper I Artifact",
+    "creators":  [
+                     {
+                         "name":  "Younus M. Younus"
+                     }
+                 ],
+    "description":  "Frozen implementation and evidence boundary for Paper I. The archive includes PythonApplication157.zip, production output, diagnostic stress output, workbook-ready tables, the original v28 implementation protocol, and a publication-nomenclature addendum mapping legacy v28 terms to FDNC, UCAC, and MDNC.",
+    "keywords":  [
+                     "balanced ternary",
+                     "signed-digit arithmetic",
+                     "polynomial coefficient construction",
+                     "Windowed Fractional Canonization",
+                     "Unified Certified Contract",
+                     "matched-depth fairness",
+                     "reproducible computation"
+                 ],
+    "license":  "mit",
+    "upload_type":  "software",
+    "access_right":  "open",
+    "version":  "1.0.0",
+    "language":  "eng",
+    "related_identifiers":  [
+                                {
+                                    "identifier":  "https://github.com/yalassedi/paper-i-btns-native-polynomial-coefficient-construction",
+                                    "relation":  "isSupplementedBy",
+                                    "scheme":  "url",
+                                    "resource_type":  "software"
+                                }
+                            ]
+}
